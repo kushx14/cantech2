@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 const connectDB = require('./dbconfig');
 const cors = require('cors');
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://cantech2.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true, // If cookies are required
 }));
