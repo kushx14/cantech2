@@ -31,7 +31,7 @@ export default function Navbar() {
     return (
         <div>
             <nav
-                className="navbar navbar-expand-lg navbar-dark bg-success position-sticky"
+                className="navbar navbar-expand-lg navbar-dark bg-black position-sticky"
                 style={{
                     boxShadow: "0px 10px 20px black",
                     position: "fixed",
