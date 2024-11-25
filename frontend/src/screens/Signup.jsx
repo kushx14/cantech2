@@ -21,7 +21,7 @@ function Signup() {
         }
 
         try {
-            const response = await fetch("https://cantech0.onrender.com/api/createuser", {
+            const response = await fetch("https://cantech2.onrender.com/api/createuser", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

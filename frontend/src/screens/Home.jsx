@@ -10,10 +10,11 @@ function Home() {
     const [search, setSearch] = useState(''); // Added search state
 
     const loadData = async () => {
-        let response = await fetch("https://cantech0.onrender.com/api/foodData", {
+        let response = await fetch("https://cantech2.onrender.com/api/foodData", {
             method: "POST",
             headers: {
-                'Content-Type': 'application/json',
+                'Accept': '*/*'
+
             },
         });
 
